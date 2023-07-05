@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Timer and Stopwatch</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="timer">
+      <h2>Timer</h2>
+      <div class="timer-display">
+        <span id="timer-hours">00</span>:
+        <span id="timer-minutes">00</span>:
+        <span id="timer-seconds">00</span>
+      </div>
+      <h3>Set Timer</h3>
+    <div class="timer-input">
+        <input id="hours-input" type="number" min="0" max="99" placeholder="Hours">
+        <input id="minutes-input" type="number" min="0" max="59" placeholder="Minutes">
+        <input id="seconds-input" type="number" min="0" max="59" placeholder="Seconds">
+    </div>
+  <button id="set-timer">Set</button>
+      <button id="start-timer">Start</button>
+      <button id="stop-timer">Stop</button>
+      <button id="reset-timer">Reset</button>
+    </div>
+    <div class="stopwatch">
+      <h2>Stopwatch</h2>
+      <div class="stopwatch-display">
+        <span id="stopwatch-hours">00</span>:
+        <span id="stopwatch-minutes">00</span>:
+        <span id="stopwatch-seconds">00</span>:
+        <span id="stopwatch-milliseconds">000</span>
+      </div>
+      <button id="start-stopwatch">Start</button>
+      <button id="stop-stopwatch">Stop</button>
+      <button id="reset-stopwatch">Reset</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
